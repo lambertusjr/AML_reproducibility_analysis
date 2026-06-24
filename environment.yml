@@ -1,0 +1,37 @@
+name: aml-repro
+
+# Conda environment for the AML reproducibility study.
+# Hard pins (Python 3.10, PyTorch 2.4.1, CUDA 11.8) are the versions the
+# published results were produced with. Remaining packages are resolved by
+# conda-forge. PyTorch Geometric and its CUDA extensions are NOT installed
+# here — they require the matching wheel index and are installed via pip after
+# the environment is created (see README, "Installation").
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # Core data / ML
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - xgboost
+  - optuna            # pulls sqlalchemy + alembic for SQLite study storage
+
+  # Utilities
+  - tqdm
+  - psutil
+
+  # PyTorch stack (CUDA 11.8)
+  - pytorch=2.4.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - torchmetrics

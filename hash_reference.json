@@ -1,0 +1,71 @@
+{
+  "Elliptic": {
+    "graph_hash": "ca3ce4dab0c0dcb3604cebb112b20c574b2db67cdbdc46308e92ec0fb19372d3",
+    "components": {
+      "edge_index": "eb99efe97a9c0cce5c53a854c65bc40a3644d1ac2315434d352faf0813d8a0ef",
+      "test_mask": "18fa06e9fe22205a968f09e2100213a056fe5982aef7cda5b4f5a48d66b5180f",
+      "test_perf_eval_mask": "0a105dd549b9d0ddc58be304097f8761f01319165d64b4b595f48cd7aa125b1a",
+      "train_mask": "ea2ff6f423184842f33aa8b180c07180bc28628a026a878d81624c289b667723",
+      "train_perf_eval_mask": "c1361962d79985330ff7cd80b37554adde3d5d1117ddb48662efa9b64754a3b7",
+      "val_mask": "d6105585534269c4209e3d80cbeb7e973972da758a55d3d819fd1dd99f32faca",
+      "val_perf_eval_mask": "ad9db5a7df0530bd35995accb10513ba28aca61d609fa25d11b870f8b1a60a5f",
+      "x": "58e85c2da0a8c67169b445960b3717ac8d1d12edce15cd0da78510e7269cffe5",
+      "y": "d78b9233feddb7e5547f329970906b6a0113b5c1bc4b0fc843519cc359bf7ee1"
+    }
+  },
+  "IBM_AML_HiSmall": {
+    "graph_hash": "06b4d049ab8b9fa0e38f10b392d755dc17a108f1e90f5f5c64dac7d5ee34b9f6",
+    "components": {
+      "edge_index": "31c851d958056c627aa52a1a36fa86dd0f05c4c6f0172348165693970bc358ff",
+      "test_mask": "d01bb0037eedbf7001a8400aef9ca0c905c90e5dea0e7d1b19b08f38e994039d",
+      "train_mask": "2d5f351e08ab2ec94f01cb435a99c212c109c96f24ea27af8a361157b2e8a285",
+      "val_mask": "de00dc69402ab45cbc5703ae00d905efd5c38f52b6e951b20a630500adcde8c1",
+      "x": "6d693ac930354c8f24553abaf6b025cfa91e973bc065c26bfb747d9f2282044c",
+      "y": "ad08cd3db271a4bf701cdfe437ed9ce8f662ce8103d57fc4f0b6d39ffd5fb48b"
+    }
+  },
+  "IBM_AML_LiSmall": {
+    "graph_hash": "f532c68e5a8ba185b32f62eb01b45d9c76cf502573240038bc6c34998e308540",
+    "components": {
+      "edge_index": "6e23a0b29ff4857d431e7906a17bc9cb92d2d2a7d0d8bad541865c35cf2b4620",
+      "test_mask": "0464de7ab06aa4692fe849efcb89f3bff360f1d6ce51127707f1ddcf6011db7a",
+      "train_mask": "4b8428420a5bb3075b450218fd0b3bb69361a3eac84ee960fcae996f8f876fce",
+      "val_mask": "1896be091c9a0f82a106283e25044737aa6449aaabcda6305b7fa68fffbd879b",
+      "x": "24960a28e9bea4a03c622c2beb44e84ccc12a885f119cfddbbb5683ade549a37",
+      "y": "2f28ebacb1d6a3370344e69374c64aace1a11fa832f11ab77b49cf6aaebe29a8"
+    }
+  },
+  "IBM_AML_HiMedium": {
+    "graph_hash": "ae9af5717639f8ecaf5a1909d0ebf647302e3a3163b8505930d1e405d166cb83",
+    "components": {
+      "edge_index": "703e7a23bdd8c053c74628b0586e992697554fb6263bfaf3f213e936d78ac680",
+      "test_mask": "15dee0196134e24377c94f83035486582d677cafa4dcbbb1afab775f768b7395",
+      "train_mask": "d987b1b79a3cfdc3ff767d9f9ec1edd336fd76f4fa2d5fa2152ef554b0000f89",
+      "val_mask": "cd70c48385e643d568cfa7f856f9ad766f9d0a7520c75c0f9d6dc7278d6aa3ce",
+      "x": "214f87a702550833162cbccb6c357502cfafe7e66f4003e6fb05e3a62b6605dc",
+      "y": "0b1deaf190facd2fec1839a655ceee51f91befa285cea3f9d4d49d1e4995707b"
+    }
+  },
+  "IBM_AML_LiMedium": {
+    "graph_hash": "4f15ec70b997e512289e4931788315105a3cbe13e733f44028a7b1eb8f715c8d",
+    "components": {
+      "edge_index": "8c22b7be9d1448bb889eaf06012c1cec366d58dfd2afe15a8d46e9308c850a43",
+      "test_mask": "dd7788f9700295c5f8e6823434466080c0f7ce6e6ee4566f8fd81e232f2916aa",
+      "train_mask": "086a6fe156deb849d00a389686ea6e2690e22d1a2e6cb7d8ba9e9abb0acfb3c4",
+      "val_mask": "cbe2bea1e9748db76107b1572814407677641a1fd442587f15c497b01d1f8e69",
+      "x": "e73a8f0c3cdeee10e415926a294debf8ca69b30208e2ffbf0f6824d6552eeaca",
+      "y": "ade4a660fbce847fa41cb605b3d5f22cdd6b770801aa07e6be5fcd926a547dd9"
+    }
+  },
+  "AMLSim": {
+    "graph_hash": "9c92620b7797ee8865fe63f1518f7f0f2b69468d1e182bf2f5565e4a8e11f4e2",
+    "components": {
+      "edge_index": "e6c80c1836dd8e7c37aa002f1412860e05c836d74d638a4ca9c26ef1dfcff006",
+      "test_mask": "df99e6d5764f96ba14135a3a91ac9fe7b07fa577c8b81bfc760d164fea27de5a",
+      "train_mask": "6a7c646d7bf828979ed9e613941edd58b610753548cd955c125508ca602df739",
+      "val_mask": "f80582a48756db899f4dc78b37de83d2a1a6b0a84a7f0966881f08006994695d",
+      "x": "721728eea006b44d2d209426e6ca822891254bb201b44ede5da45a1e0b07b71e",
+      "y": "193a36c0946d27e1013d0b3beaf1a41010f40f26b775621f6ddc6a99ea50f38f"
+    }
+  }
+}
